@@ -1,0 +1,21 @@
+{
+    "name": "alan/messages",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "": "tests/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "alan",
+            "email": "alan@alan.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    }
+}

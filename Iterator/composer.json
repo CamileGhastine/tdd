@@ -1,0 +1,16 @@
+{
+    "name": "camile/iterator",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "CamileGhastine",
+            "email": "camileghastine@hotmail.com"
+        }
+    ],
+    "require": {}
+}
