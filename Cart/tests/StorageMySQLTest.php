@@ -22,7 +22,7 @@ class StorageMySQLTest extends TestCase
 
     public static function setUpBeforeClass(): void
     {
-        self::$pdo = new PDO("mysql:host=localhost:3306; dbname=fruittest", 'root', '');
+        self::$pdo = new PDO("mysql:host=localhost:3306; dbname=fruittest", $_ENV['APP_USERNAME'], $_ENV['APP_PASSWORD']);
     }
 
 
